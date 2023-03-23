@@ -1,3 +1,4 @@
+/*style*/
 :root {
   --brand-color-active: #2196f3;
   --brand-color-body-backround: #ffffff;
@@ -476,4 +477,46 @@ body {
 
 .what-we-do-list {
   list-style: none;
+}
+
+/*flex*/
+
+* {
+  margin: 0;
+  padding: 0;
+}
+
+.container {
+  width: 1200px;
+  margin: 0 auto;
+  padding-top: 24px;
+  padding-bottom: 25px;
+}
+
+.header-box {
+  border-bottom: 1px solid #ececec;
+}
+
+.header-email {
+  margin-left: 364px;
+}
+
+.header-phone {
+  margin-left: 50px;
+}
+
+.menu {
+  display: flex;
+  gap: 46px;
+  justify-items: flex-start;
+}
+.menu-box {
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+}
+
+.nav-container {
+  max-width: 254px;
+  margin-left: 93px;
 }
