@@ -552,37 +552,15 @@ img {
   padding-bottom: 10px;
 }
 
-/* .lorem-ipsum {
-  justify-content: flex-start;
-  padding-bottom: 10px;
-  padding-right: 30px;
-} */
-
-/* .paragraf-text {
-  display: flex;
-  width: 270px;
-  text-overflow: ellipsis;
-  flex-wrap: wrap;
-} */
-
 .section {
   padding-top: 94px;
   padding-bottom: 94px;
-}
-
-.advantages-box {
-  /* display: flex; */
-  /* justify-content: center;
-  align-items: center; */
 }
 
 .advantages-list-box {
   display: flex;
   justify-content: center;
   align-items: center;
-  /* padding-left: 15px;
-  padding-right: 15px; */
-  border: 1px solid red;
   gap: 30px;
 }
 
