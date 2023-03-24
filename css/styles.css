@@ -489,8 +489,6 @@ body {
 .container {
   width: 1200px;
   margin: 0 auto;
-  padding-top: 24px;
-  padding-bottom: 25px;
 }
 
 .header-box {
@@ -501,10 +499,30 @@ body {
   margin-left: 364px;
 }
 
+.header-offset {
+  padding-top: 24px;
+  padding-bottom: 25px;
+}
+
 .header-phone {
   margin-left: 50px;
 }
 
+.button-position {
+  margin-top: 30px;
+  margin-bottom: 200px;
+  align-items: center;
+}
+
+.hedline-offset {
+  padding-top: 200px;
+}
+
+.main-content {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
 .menu {
   display: flex;
   gap: 46px;
