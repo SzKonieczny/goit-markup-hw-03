@@ -199,6 +199,7 @@ img {
   line-height: 1.2;
   letter-spacing: 0.03em;
   text-decoration: none;
+  padding-top: 60px;
 }
 
 .logo-text {
@@ -339,6 +340,8 @@ img {
   line-height: 1.2;
   color: var(--brand-color-headlines-font);
   letter-spacing: 0.03em;
+  text-align: center;
+  margin-bottom: 50px;
 }
 
 .our-team-list {
@@ -354,6 +357,8 @@ img {
   text-align: center;
   letter-spacing: 0.03em;
   color: var(--brand-color-headlines-font);
+  margin-top: 30px;
+  margin-bottom: 10px;
 }
 
 .our-team-position {
@@ -476,6 +481,8 @@ img {
   line-height: 1.2;
   letter-spacing: 0.03em;
   color: var(--brand-color-headlines-font);
+  text-align: center;
+  margin-bottom: 50px;
 }
 
 .what-we-do-list {
@@ -562,8 +569,25 @@ img {
   justify-content: center;
   align-items: center;
   gap: 30px;
+  padding-left: 15px;
+  padding-right: 15px;
+  margin-bottom: 94px;
 }
 
 .advantages-list-item {
   margin-bottom: 10px;
+}
+
+.what-we-do-box-list {
+  display: flex;
+  gap: 30px;
+  justify-content: center;
+  align-items: center;
+}
+
+.img-list {
+  display: flex;
+  gap: 30px;
+  justify-content: center;
+  align-items: center;
 }
