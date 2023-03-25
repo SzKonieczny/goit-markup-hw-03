@@ -605,10 +605,7 @@ img {
   margin-bottom: 60px;
 }
 
-.card {
+.footer-items {
   display: flex;
   flex-direction: column;
-}
-
-.card a {
 }
