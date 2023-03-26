@@ -41,6 +41,12 @@ li {
   list-style: none;
 }
 
+.footer-address {
+  display: flex;
+  gap: 9px;
+  flex-direction: column;
+}
+
 .filter-button-list {
   list-style: none;
 }
@@ -212,6 +218,15 @@ li {
   text-decoration: none;
 }
 
+.footer-items {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+}
+.footer-padding {
+  padding: 60px 0px;
+}
+
 .footer-phone-link:is(:hover, :focus, :active) {
   color: var(--brand-color-active);
 }
@@ -241,7 +256,7 @@ li {
   line-height: 1.2;
   letter-spacing: 0.03em;
   text-decoration: none;
-  margin-top: 60px;
+  width: fit-content;
 }
 
 .job-box {
