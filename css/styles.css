@@ -16,14 +16,29 @@
   --brand-color-ourteam-bg: #f5f4fa;
   --brand-color-text-body: #212121;
 }
+* {
+  margin: 0px;
+  padding: 0px;
+}
 
 body {
   font-family: "Roboto", sans-serif;
   background-color: var(--brand-color-body-backround);
   color: var(--brand-color-body-text);
 }
+
+.container {
+  width: 1200px;
+  padding: 0px 15px;
+  margin: 0px auto;
+}
+
 img {
   display: block;
+}
+
+li {
+  list-style: none;
 }
 
 .filter-button-list {
@@ -162,16 +177,6 @@ img {
   background-color: var(--brand-color-heder-footer);
 }
 
-.headline-text {
-  font-style: normal;
-  font-weight: 900;
-  font-size: 44px;
-  line-height: 1.4;
-  letter-spacing: 0.06em;
-  text-transform: uppercase;
-  color: var(--brand-color-h1-text);
-}
-
 .footer-address-street-name {
   font-style: normal;
   font-weight: 400;
@@ -211,6 +216,23 @@ img {
   color: var(--brand-color-active);
 }
 
+.header-box {
+  border-bottom: 1px solid #ececec;
+}
+
+.headline-text {
+  font-style: normal;
+  font-weight: 900;
+  font-size: 44px;
+  line-height: 1.4;
+  letter-spacing: 0.06em;
+  text-transform: uppercase;
+  color: var(--brand-color-h1-text);
+  text-align: center;
+  max-width: 696px;
+  width: fit-content;
+}
+
 .index-footer-logo {
   font-family: "Raleway";
   font-style: normal;
@@ -220,6 +242,15 @@ img {
   letter-spacing: 0.03em;
   text-decoration: none;
   margin-top: 60px;
+}
+
+.job-box {
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  align-items: center;
+  gap: 30px;
+  padding: 200px 0px;
 }
 
 .logo-text {
@@ -232,6 +263,7 @@ img {
   color: #000000;
   cursor: pointer;
   text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+  margin-right: 93px;
 }
 
 .logo-studio {
@@ -245,6 +277,25 @@ img {
 
 .main-section-one-bg {
   background-color: var(--brand-color-heder-footer);
+}
+
+.name-position-gap {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+
+.menu-box {
+  display: flex;
+  align-items: center;
+  padding-top: 24px;
+  padding-bottom: 25px;
+}
+
+.nav-container {
+  display: flex;
+  gap: 30px;
+  align-items: center;
 }
 
 .navigation-menu-link-agency {
@@ -319,7 +370,16 @@ img {
 }
 
 .our-advantages-list {
-  list-style: none;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 30px;
+}
+
+.advantages-list-item {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
 }
 
 .order-button {
@@ -342,6 +402,8 @@ img {
   text-align: center;
   letter-spacing: 0.06em;
   color: var(--brand-color-order-service-text);
+  padding: 10px 41px 10px 42px;
+  width: fit-content;
 }
 
 .our-team-bg {
@@ -354,6 +416,12 @@ img {
   background-color: var(--brand-color-img-background);
 }
 
+.our-team-item-gap {
+  display: flex;
+  flex-direction: column;
+  gap: 50px;
+}
+
 .our-team-headline-text {
   font-style: normal;
   font-size: 36px;
@@ -361,11 +429,19 @@ img {
   color: var(--brand-color-headlines-font);
   letter-spacing: 0.03em;
   text-align: center;
-  margin-bottom: 50px;
 }
 
 .our-team-list {
-  list-style: none;
+  display: flex;
+  gap: 30px;
+  justify-content: center;
+  align-items: center;
+}
+
+.our-team-list-gap {
+  display: flex;
+  flex-direction: column;
+  gap: 30px;
 }
 
 .our-team-name {
@@ -377,8 +453,6 @@ img {
   text-align: center;
   letter-spacing: 0.03em;
   color: var(--brand-color-headlines-font);
-  margin-top: 30px;
-  margin-bottom: 10px;
 }
 
 .our-team-position {
@@ -404,14 +478,22 @@ img {
 }
 
 .project-containers-bg {
-  box-sizing: border-box;
   width: 370px;
   height: 404px;
   left: 215px;
   top: 262px;
   background-color: var(--brand-color-img-background);
-  border: 1px solid #eeeeee;
 }
+
+/* .div {
+  box-sizing: border-box;
+  max-width: 370px;
+  /* border-bottom: 1px solid #eeeeee;
+  border-left: 1px solid #eeeeee;
+  border-right: 1px solid #eeeeee;
+  justify-content: center;
+  align-items: center;
+} */
 
 .project-description-text {
   font-style: normal;
@@ -429,11 +511,15 @@ img {
 
 .project-title-headline-text {
   font-style: normal;
-
   font-size: 18px;
   line-height: 2;
   /* identical to box height, or 200% */
   letter-spacing: 0.06em;
+}
+
+.section {
+  padding-top: 94px;
+  padding-bottom: 94px;
 }
 
 .top-bar-email {
@@ -445,6 +531,7 @@ img {
   letter-spacing: 0.02em;
   text-decoration: none;
   cursor: pointer;
+  margin-left: 371px;
 }
 
 .top-bar-email:is(:hover, :focus, :active) {
@@ -460,6 +547,7 @@ img {
   letter-spacing: 0.02em;
   text-decoration: none;
   cursor: pointer;
+  padding-left: 50px;
 }
 
 .top-bar-phone:is(:hover, :focus, :active) {
@@ -473,23 +561,34 @@ img {
   letter-spacing: 0.03em;
   color: var(--brand-color-headlines-font);
   text-align: center;
-  margin-bottom: 50px;
+}
+
+.what-we-do-offset {
+  padding-top: 0px;
 }
 
 .what-we-do-list {
-  list-style: none;
+  display: flex;
+  gap: 30px;
+}
+
+.what-we-do-item-gap {
+  display: flex;
+  flex-direction: column;
+  gap: 50px;
 }
 
 /*flex*/
 
-* {
+/* * {
   margin: 0;
   padding: 0;
 }
 
 .container {
   width: 1200px;
-  margin: 0 auto;
+  padding: 0px 15px;
+  margin: 0px auto;
 }
 
 .header-box {
@@ -527,15 +626,16 @@ img {
 }
 .menu-box {
   display: flex;
-  justify-content: flex-start;
+  justify-content: center;
   align-items: center;
   padding-top: 24px;
   padding-bottom: 25px;
+  padding-left: 15px;
+  padding-right: 15px;
 }
 
 .nav-container {
   max-width: 254px;
-  margin-left: 93px;
 }
 
 .our-advantages-box {
@@ -607,3 +707,14 @@ img {
   gap: 8px;
   margin-bottom: 50px;
 }
+
+.mesh {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 30px;
+  justify-content: center;
+} */
+
+/* .list-item {
+  flex-basis: calc((100% - 60px) / 3);
+} */
