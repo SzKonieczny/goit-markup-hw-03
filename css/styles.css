@@ -3,6 +3,7 @@
   --brand-color-active: #2196f3;
   --brand-color-body-backround: #ffffff;
   --brand-color-body-text: #212121;
+  --brand-color-border: #eeeeee;
   --brand-color-description-font: #757575;
   --brand-color-h1-text: #ffffff;
   --brand-color-heder-footer: #2f303a;
@@ -41,14 +42,14 @@ li {
   list-style: none;
 }
 
-.footer-address {
-  display: flex;
-  gap: 9px;
-  flex-direction: column;
+.filter-button-list {
 }
 
-.filter-button-list {
-  list-style: none;
+.filter-box {
+  display: flex;
+  justify-content: center;
+  gap: 8px;
+  padding-bottom: 16px;
 }
 
 .filter-button-all {
@@ -183,6 +184,12 @@ li {
   background-color: var(--brand-color-heder-footer);
 }
 
+.footer-address {
+  display: flex;
+  gap: 9px;
+  flex-direction: column;
+}
+
 .footer-address-street-name {
   font-style: normal;
   font-weight: 400;
@@ -258,6 +265,10 @@ li {
   width: fit-content;
 }
 
+.item-gap {
+  margin-bottom: 34px;
+}
+
 .job-box {
   display: flex;
   justify-content: center;
@@ -304,6 +315,26 @@ li {
   align-items: center;
   padding-top: 24px;
   padding-bottom: 25px;
+}
+
+.mesh {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 30px;
+  justify-content: center;
+}
+
+.title-description {
+  display: flex;
+  flex-direction: column;
+  gap: 4px;
+  padding: 20px 24px;
+}
+
+.border {
+  border-bottom: 1px solid var(--brand-color-border);
+  border-right: 1px solid var(--brand-color-border);
+  border-left: 1px solid var(--brand-color-border);
 }
 
 .nav-container {
@@ -361,7 +392,6 @@ li {
 }
 
 .navigation-list {
-  list-style: none;
 }
 
 .our-advantages-description {
@@ -519,7 +549,6 @@ li {
 }
 
 .project-list {
-  list-style: none;
 }
 
 .project-title-headline-text {
