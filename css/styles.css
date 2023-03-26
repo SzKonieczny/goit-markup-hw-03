@@ -45,6 +45,7 @@ img {
   border-radius: 4px;
   border-color: var(--brand-color-ourteam-bg);
   cursor: pointer;
+  padding: 6px 22px;
 }
 
 .filter-button-all:is(:hover, :focus, :active) {
@@ -64,12 +65,13 @@ img {
   letter-spacing: 0.03em;
   width: 114px;
   height: 38px;
-  left: 740px;
-  top: 174px;
+  /* left: 740px;
+  top: 174px; */
   background-color: var(--brand-color-ourteam-bg);
   border-radius: 4px;
   border-color: var(--brand-color-ourteam-bg);
   cursor: pointer;
+  padding: 6px 22px;
 }
 
 .filter-button-apps:is(:hover, :focus, :active) {
@@ -95,6 +97,7 @@ img {
   border-radius: 4px;
   border-color: var(--brand-color-ourteam-bg);
   cursor: pointer;
+  padding: 6px 22px;
 }
 
 .filter-button-design:is(:hover, :focus, :active) {
@@ -120,6 +123,7 @@ img {
   border-radius: 4px;
   border-color: var(--brand-color-ourteam-bg);
   cursor: pointer;
+  padding: 6px 22px;
 }
 
 .filter-button-marketing:is(:hover, :focus, :active) {
@@ -145,6 +149,7 @@ img {
   border-radius: 4px;
   border-color: var(--brand-color-ourteam-bg);
   cursor: pointer;
+  padding: 6px 22px;
 }
 
 .filter-button-pages:is(:hover, :focus, :active) {
@@ -495,11 +500,6 @@ img {
   margin-left: 364px;
 }
 
-.header-offset {
-  padding-top: 24px;
-  padding-bottom: 25px;
-}
-
 .header-phone {
   margin-left: 50px;
 }
@@ -529,6 +529,8 @@ img {
   display: flex;
   justify-content: flex-start;
   align-items: center;
+  padding-top: 24px;
+  padding-bottom: 25px;
 }
 
 .nav-container {
@@ -596,4 +598,12 @@ img {
 .footer-items {
   display: flex;
   flex-direction: column;
+}
+
+.filter-button-box {
+  display: flex;
+  justify-content: center;
+  align-items: flex-start;
+  gap: 8px;
+  margin-bottom: 50px;
 }
