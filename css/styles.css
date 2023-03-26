@@ -191,7 +191,6 @@ li {
   /* or 171% */
   letter-spacing: 0.03em;
   color: var(--brand-color-img-background);
-  margin-bottom: 9px;
 }
 
 .footer-email-phone-link {
@@ -489,7 +488,6 @@ li {
   line-height: 1.2;
   letter-spacing: 0.03em;
   text-decoration-line: none;
-  margin-top: 60px;
 }
 
 .project-containers-bg {
