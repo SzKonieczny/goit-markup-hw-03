@@ -62,7 +62,7 @@ li {
   text-align: center;
   letter-spacing: 0.03em;
   width: 121px;
-  height: 38px;
+
   background-color: var(--brand-color-ourteam-bg);
   border-radius: 4px;
   border-color: var(--brand-color-ourteam-bg);
@@ -86,7 +86,6 @@ li {
   text-align: center;
   letter-spacing: 0.03em;
   width: 114px;
-  height: 38px;
   /* left: 740px;
   top: 174px; */
   background-color: var(--brand-color-ourteam-bg);
@@ -112,7 +111,6 @@ li {
   text-align: center;
   letter-spacing: 0.03em;
   width: 91px;
-  height: 38px;
   left: 862px;
   top: 174px;
   background-color: var(--brand-color-ourteam-bg);
@@ -138,7 +136,6 @@ li {
   text-align: center;
   letter-spacing: 0.03em;
   width: 121px;
-  height: 38px;
   left: 961px;
   top: 174px;
   background-color: var(--brand-color-ourteam-bg);
@@ -164,7 +161,6 @@ li {
   text-align: center;
   letter-spacing: 0.03em;
   width: 93px;
-  height: 38px;
   left: 639px;
   top: 174px;
   background-color: var(--brand-color-ourteam-bg);
@@ -200,7 +196,7 @@ li {
   color: var(--brand-color-img-background);
 }
 
-.footer-email-phone-link {
+.footer-email-link {
   font-style: normal;
   font-weight: 400;
   font-size: 14px;
@@ -210,7 +206,7 @@ li {
   text-decoration: none;
 }
 
-.footer-email-phone-link:is(:hover, :focus, :active) {
+.footer-email-link:is(:hover, :focus, :active) {
   color: var(--brand-color-active);
 }
 
@@ -308,6 +304,7 @@ li {
   display: flex;
   flex-direction: column;
   gap: 10px;
+  margin-bottom: 30px;
 }
 
 .menu-box {
@@ -345,7 +342,7 @@ li {
 
 .navigation-menu-link-agency {
   width: 53px;
-  height: 16px;
+
   font-style: normal;
   font-weight: 500;
   font-size: 14px;
@@ -361,7 +358,7 @@ li {
 
 .navigation-menu-link-contact {
   width: 51px;
-  height: 16px;
+
   font-style: normal;
   font-weight: 500;
   font-size: 14px;
@@ -377,7 +374,7 @@ li {
 
 .navigation-menu-link-portfolio {
   width: 58px;
-  height: 16px;
+
   font-style: normal;
   font-weight: 500;
   font-size: 14px;
@@ -428,7 +425,6 @@ li {
 
 .order-button {
   width: 200px;
-  height: 50px;
   background-color: var(--brand-color-order-button-background);
   box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
   border-radius: 4px;
@@ -456,7 +452,6 @@ li {
 
 .our-team-card-bg {
   width: 270px;
-  height: 368px;
   background-color: var(--brand-color-img-background);
 }
 
@@ -522,7 +517,6 @@ li {
 
 .project-containers-bg {
   width: 370px;
-  height: 404px;
   left: 215px;
   top: 262px;
   background-color: var(--brand-color-img-background);
