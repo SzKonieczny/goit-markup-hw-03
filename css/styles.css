@@ -573,7 +573,7 @@ li {
   letter-spacing: 0.02em;
   text-decoration: none;
   cursor: pointer;
-  padding-left: 50px;
+  margin-left: 50px;
 }
 
 .top-bar-phone:is(:hover, :focus, :active) {
